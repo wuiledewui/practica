@@ -1,0 +1,59 @@
+                                        COMANDOS GIT 
+ ls (poder listar archivos y carpetas en directorio )
+
+ pdw (ubicacion actual )
+
+ cd ( moverse e ingresar  en carpetas)
+ 
+ cd .. ( volver carpeta anterior )
+
+ mkdir ( crear carpetas ) 
+
+ ls -a (contenidos ocultos ejm .git )
+
+ code . (abre editor) 
+  
+ git status (estado actual del repositorio ) 
+
+ git add ( agregar archivos  etapa stage ) cuando esta en verdes esta listo para comprometer
+
+ git commit -m "" ( commit comprometido)
+
+ rm (borrar archivos )
+
+ git restore <file ( restaurar archivos)
+
+ mv ( mover archivos y  cambiar nombre )
+  git mv mas facil
+
+ 
+importante 
+ crear archivo .gitignore para almacenar archivos importantes que no se desean q fueran encontrados
+
+
+ git status -s ver otra forma
+  
+ git diff se ve graficamente todo el texto que se desea agregar 
+  
+ git diff --staged se ven los cambios en satge
+
+ 
+importante 
+ 
+ git log muestra todo el historial de git hasta el momento 
+
+ git log --oneline se ve mejor el historial 
+
+ 
+ git branch ver rama actual 
+
+ git branch -d para eliminar ramas
+ 
+ git checkout  -b ( escribir el nombre de la rama que se desea crear )
+
+  git checkout y la rama que se desea ir 
+ 
+ cat archivo.txt ver que contiene determinado archivo 
+
+ git merge concatenar ramas 
+ 
